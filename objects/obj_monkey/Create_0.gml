@@ -9,8 +9,19 @@ estado_walk = new estado();
 	//Meu estado idle precisa de um inicia
 estado_idle.inicia = function()
 {
+	//Sprite atual de acordo com o lado que estou olhando
+	var _sprite = spr_monkey_idle_down;
+	
+	switch(dir)
+	{
+		case 0: _sprite = spr_monkey_idle_up;		break;
+		case 1: _sprite = spr_monkey_idle_right;	break;
+		case 2: _sprite = spr_monkey_idle_down;		break;
+		case 3: _sprite = spr_monkey_idle_left;		break;
+	}
+	
 	//Ajustando a sprite
-	sprite_index = spr_monkey_idle_down;
+	sprite_index = _sprite;
 }
 
 estado_idle.roda = function()
@@ -65,7 +76,8 @@ velv = 0;
 vel =  0.8;	//velocidade do player
 
 	//Sabendo pra qual lado ele está
-
+	dir=0;
+	
 #endregion
 
 	//Iniciando minha máquina de estados

@@ -10,10 +10,12 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Mapas","folderPath":"folders/Mapas.yy","name":"Mapas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fundo","folderPath":"folders/Sprites/Fundo.yy","name":"Fundo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Outros","folderPath":"folders/Sprites/Outros.yy","name":"Outros","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Idle","folderPath":"folders/Sprites/Player/Idle.yy","name":"Idle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walk","folderPath":"folders/Sprites/Player/Walk.yy","name":"Walk","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,9 +29,12 @@
   },
   "name":"Monkeys Word",
   "resources":[
+    {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_monkey","path":"objects/obj_monkey/obj_monkey.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Local_Testes","path":"rooms/Local_Testes/Local_Testes.yy",},},
     {"id":{"name":"state_machine","path":"scripts/state_machine/state_machine.yy",},},
+    {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
+    {"id":{"name":"spr_fundo_teste","path":"sprites/spr_fundo_teste/spr_fundo_teste.yy",},},
     {"id":{"name":"spr_monkey_idle_down","path":"sprites/spr_monkey_idle_down/spr_monkey_idle_down.yy",},},
     {"id":{"name":"spr_monkey_idle_left","path":"sprites/spr_monkey_idle_left/spr_monkey_idle_left.yy",},},
     {"id":{"name":"spr_monkey_idle_right","path":"sprites/spr_monkey_idle_right/spr_monkey_idle_right.yy",},},
@@ -42,7 +47,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Local_Testes","path":"rooms/Local_Testes/Local_Testes.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

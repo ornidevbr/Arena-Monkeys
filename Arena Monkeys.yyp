@@ -1,0 +1,51 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Monkeys Word",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":0,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Mapas","folderPath":"folders/Mapas.yy","name":"Mapas","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Idle","folderPath":"folders/Sprites/Player/Idle.yy","name":"Idle","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Walk","folderPath":"folders/Sprites/Player/Walk.yy","name":"Walk","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
+  },
+  "name":"Monkeys Word",
+  "resources":[
+    {"id":{"name":"obj_monkey","path":"objects/obj_monkey/obj_monkey.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"state_machine","path":"scripts/state_machine/state_machine.yy",},},
+    {"id":{"name":"spr_monkey_idle_down","path":"sprites/spr_monkey_idle_down/spr_monkey_idle_down.yy",},},
+    {"id":{"name":"spr_monkey_idle_left","path":"sprites/spr_monkey_idle_left/spr_monkey_idle_left.yy",},},
+    {"id":{"name":"spr_monkey_idle_right","path":"sprites/spr_monkey_idle_right/spr_monkey_idle_right.yy",},},
+    {"id":{"name":"spr_monkey_idle_up","path":"sprites/spr_monkey_idle_up/spr_monkey_idle_up.yy",},},
+    {"id":{"name":"spr_monkey_walk_down","path":"sprites/spr_monkey_walk_down/spr_monkey_walk_down.yy",},},
+    {"id":{"name":"spr_monkey_walk_left","path":"sprites/spr_monkey_walk_left/spr_monkey_walk_left.yy",},},
+    {"id":{"name":"spr_monkey_walk_right","path":"sprites/spr_monkey_walk_right/spr_monkey_walk_right.yy",},},
+    {"id":{"name":"spr_monkey_walk_up","path":"sprites/spr_monkey_walk_up/spr_monkey_walk_up.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
