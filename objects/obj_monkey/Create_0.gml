@@ -39,17 +39,30 @@ estado_idle.roda = function()
 
 #region Estado Walk
 
-estado_walk.inicia = function()
+
+		estado_walk.inicia = function()
 {
-	//Ajustando a sprite
-	sprite_index = spr_monkey_walk_down;
+	if (up)		dir =	0;
+	if (left)	dir =	1;
+	if (down)	dir =	2;
+	if (right)	dir =	3;
+
+	var _sprite;
 	
-	//Começando a animação do começo
+	switch(dir)
+	{
+		case 0: _sprite = spr_monkey_walk_up;		break;
+		case 1: _sprite = spr_monkey_walk_right;	break;
+		case 2: _sprite = spr_monkey_walk_down;		break;
+		case 3: _sprite = spr_monkey_walk_left;		break;
+	}
+	
+	sprite_index = _sprite;
 	image_index = 0;
 }
 
 estado_walk.roda = function()
-{
+{	
 	//Achando a condição pra sair do estado
 	
 	//Se em não movimento mudar estado pra parado(idle)
